@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Authentication Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS for styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Link to Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <section>
+        <h1 style="color: #4CAF50; font-size: 42px;">Welcome to Our Enterprise System</h1>
+        <h1 style="color: #2196F3; font-size: 38px;">A Multi-tiered Web Application</h1>
+        <h2 style="color: #FFC107; font-size: 35px;">- Secure Login -</h2>
+    </section>
+    
+    <hr>
+    
+    <section style="height: 45vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <form action="AuthenticationServlet" method="post">
+            <label for="username" style="color: #E91E63; font-size: 24px; margin-right: 40px;">Username</label>
+            <input type="text" style="font-size: 24px; background-color: #263238; color: #FFF;" id="username" name="username">
+            <br><br>
+            <label for="password" style="color: #E91E63; font-size: 24px; margin-right: 40px;">Password</label>
+            <input id="password" type="password" style="font-size: 24px; background-color: #263238; color: #FFF;" name="password">
+            <br><br>
+            <input type="submit" style="font-size: 24px; background-color: #FF5722; color: white;" value="Sign In">
+        </form>
+    </section>
+    
+    <hr>
+    
+   
+</body>
+</html>

@@ -1,0 +1,95 @@
+<web-app>
+
+   <!-- General description of your Web application -->
+   <display-name>
+      CNT 4714 Fall 2023 Servlet/JSP Home Page
+   </display-name>
+
+   <description>
+      This is the Web application in which we 
+      demonstrate our JSP and Servlet examples.
+   </description>
+
+   <!-- Servlet definitions and mappings  -->
+
+   <servlet>
+       <servlet-name>AuthenticationServlet</servlet-name>
+       <servlet-class>welcome1.AuthenticationServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>AuthenticationServlet</servlet-name>
+       <url-pattern>/AuthenticationServlet</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+       <servlet-name>ClientHomeServlet</servlet-name>
+       <servlet-class>welcome1.ClientHomeServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>ClientHomeServlet</servlet-name>
+       <url-pattern>/ClientHomeServlet</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+       <servlet-name>RootHomeServlet</servlet-name>
+       <servlet-class>welcome1.RootHomeServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>RootHomeServlet</servlet-name>
+       <url-pattern>/RootHomeServlet</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+       <servlet-name>AccountantHomeServlet</servlet-name>
+       <servlet-class>welcome1.AccountantHomeServlet</servlet-class> <!-- Corrected class name -->
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>AccountantHomeServlet</servlet-name>
+       <url-pattern>/AccountantHomeServlet</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+       <servlet-name>SuppliersInsertServlet</servlet-name>
+       <servlet-class>welcome1.SuppliersInsertServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>SuppliersInsertServlet</servlet-name>
+       <url-pattern>/SuppliersInsertServlet</url-pattern>
+   </servlet-mapping>
+
+
+ <servlet>
+       <servlet-name>PartsInsertServlet</servlet-name>
+       <servlet-class>welcome1.PartsInsertServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>PartsInsertServlet</servlet-name>
+       <url-pattern>/PartsInsertServlet</url-pattern>
+   </servlet-mapping>
+
+
+
+ <servlet>
+       <servlet-name>JobsInsertServlet</servlet-name>
+       <servlet-class>welcome1.JobsInsertServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>JobsInsertServlet</servlet-name>
+       <url-pattern>/JobsInsertServlet</url-pattern>
+   </servlet-mapping>
+
+
+
+
+ <servlet>
+       <servlet-name>ShipmentsInsertServlet</servlet-name>
+       <servlet-class>welcome1.ShipmentsInsertServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>ShipmentsInsertServlet</servlet-name>
+       <url-pattern>/ShipmentsInsertServlet</url-pattern>
+   </servlet-mapping>
+
+
+
+</web-app>
